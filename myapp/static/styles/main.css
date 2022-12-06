@@ -1,16 +1,17 @@
 body {
     background: #202020;
     color: whitesmoke;
+    font-family: sans-serif;
 }
 
 .navbar {
-    background: #404040;
-    padding: 5px 0px;
+    background-color: #e5ff89;
 }
 
 .navbar ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul li {
@@ -18,12 +19,12 @@ body {
 }
 
 .navbar ul li a {
-    color: white;
+    color: rgb(117, 117, 117);
     text-decoration: none;
 }
 
-.navbar ul li a:hover {
-    color: aquamarine;
+.navbar ul li:hover {
+    background-color: #c2bdbd;
 }
 
 .container {
